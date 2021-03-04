@@ -45,7 +45,7 @@ function start() {
 
     const youWin = () => {
         let accuracy = Math.round(count / daysLeft * 100); // calculer le pourcentage de réussite de tirs par rapport au jour restant (chaque clic enlève un jour)
-        endScreen.innerHTML = `<div class="youWin">Bravo ! Tu as atomisé cette merde<br/><span>précision : ${accuracy}%</span></div>`;
+        endScreen.innerHTML = `<div class="youWin">Bravo ! Tu as atomisé ce virus !!<br/><span>précision : ${accuracy}%</span></div>`;
         endScreen.style.visibility = 'visible';
         endScreen.style.opacity = '1';
         loopPlay = false;
